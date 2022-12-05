@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-new-moment',
-  templateUrl: './new-moment.component.html',
-  styleUrls: ['./new-moment.component.css']
+  selector: 'app-sms-sender',
+  templateUrl: './sms-sender.component.html',
+  styleUrls: ['./sms-sender.component.css']
 })
 export class NewMomentComponent {
   btnText = 'Compartilhar!';
