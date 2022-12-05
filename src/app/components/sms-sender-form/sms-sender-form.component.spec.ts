@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NewMomentComponent } from './new-moment.component';
+import { MomentFormComponent } from './sms-sender-form.component';
 
-describe('NewMomentComponent', () => {
-  let component: NewMomentComponent;
-  let fixture: ComponentFixture<NewMomentComponent>;
+describe('MomentFormComponent', () => {
+  let component: MomentFormComponent;
+  let fixture: ComponentFixture<MomentFormComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ NewMomentComponent ]
+      declarations: [ MomentFormComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(NewMomentComponent);
+    fixture = TestBed.createComponent(MomentFormComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

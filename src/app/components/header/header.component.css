@@ -1,12 +1,11 @@
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 1em;
-    border-bottom: 1px solid #777;
+    padding: 2em;
+    background: linear-gradient(90deg, rgba(16, 150, 170) 30%, rgba(25, 0, 140));
 }
 
-.brand,
-.links {
+.brand {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,7 +13,7 @@ nav {
 }
 
 .brand img {
-    width: 40px;
+    width: 200px;
     margin-right: 0.6em;
 }
 
@@ -23,15 +22,6 @@ nav {
 }
 .brand:hover > h2 {
     color: #dec129;
-}
-
-.links a {
-    padding: 0.1em 0.3em;
-}
-
-.links li {
-    margin-right: 1em;
-    list-style: none;
 }
 
 #add a {

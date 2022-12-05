@@ -1,0 +1,25 @@
+.form-group textarea {
+  height:auto;
+  max-width:600px;
+  color:#999;
+  font-weight:80;
+  font-size:15px;
+  font-family:'Ubuntu', Helvetica, Arial, sans-serif;
+  width:100%;
+  background:#fff;
+  border-radius:1px;
+  line-height:1em;
+  border:none;
+  box-shadow:0px 0px 5px 1px rgba(0,0,0,0.1);
+  padding:30px;
+  -webkit-transition: height 1s ease;
+  -moz-transition: height 1s ease;
+  -ms-transition: height 1s ease;
+  -o-transition: height 1s ease;
+  transition: height 1s ease;
+}
+
+.form-group label {
+  font-family:'Ubuntu', Helvetica, Arial, sans-serif;
+  margin-top: 1em;
+}

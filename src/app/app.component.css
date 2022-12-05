@@ -1,4 +1,17 @@
 .container {
-    min-height: 65vh;
-    margin-top: 1em;
+    min-height: 66vh;
+    margin-top: 3em;
+}
+
+div {
+  background-color: white;
+}
+
+#center-form {
+  margin-left: 280px;
+  margin-right: 280px;
+  padding-top: 1em;
+  padding-bottom: 4em;
+  align-items: center;
+  justify-content: center;
 }
