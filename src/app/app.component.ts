@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { HttpClient } from '@angular/common/http'
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,20 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'moments';
+  title = 'sms sender';
+
+  constructor(private http: HttpClient) {}
+
+  inputFileChange(event: { target: { file: any[]; }; }) {
+    if(event.target.file && event.target.file[0]) {
+      const foto = event.target.file[0];
+
+    const formData = new FormData();
+    formData.append('foto', foto);
+
+    this.http.post('http://localhost:4200/fotos', formData)
+    .subscribe(resposta => console.log("Upload ok."));
+    }
+  }
+
 }

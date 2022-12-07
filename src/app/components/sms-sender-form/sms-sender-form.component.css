@@ -1,5 +1,5 @@
 .form-group textarea {
-  height:auto;
+  height:150px;
   max-width:600px;
   color:#999;
   font-weight:80;
@@ -11,7 +11,7 @@
   line-height:1em;
   border:none;
   box-shadow:0px 0px 5px 1px rgba(0,0,0,0.1);
-  padding:30px;
+  padding:10px;
   -webkit-transition: height 1s ease;
   -moz-transition: height 1s ease;
   -ms-transition: height 1s ease;
@@ -23,3 +23,11 @@
   font-family:'Ubuntu', Helvetica, Arial, sans-serif;
   margin-top: 1em;
 }
+
+.form-group .numero-exemplo {
+  color:rgb(200, 200, 200);
+}
+
+.form-group .inserir-numero {
+  height:100px;
+ }

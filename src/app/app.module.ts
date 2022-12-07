@@ -7,6 +7,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { NewMomentComponent } from './components/pages/sms-sender/sms-sender.component';
 import { HomeComponent } from './components/home/home.component';
 import { MomentFormComponent } from './components/sms-sender-form/sms-sender-form.component';
+import { HttpClientModule }from '@angular/common/http'
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { MomentFormComponent } from './components/sms-sender-form/sms-sender-for
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

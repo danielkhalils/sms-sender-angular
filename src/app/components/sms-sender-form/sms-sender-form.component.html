@@ -1,11 +1,17 @@
   <form>
       <div class="form-group">
           <label for="title">Mensagem:</label>
-          <textarea placeholder="Insira o corpo do SMS para envio" required></textarea>
+          <textarea class="inserir-mensagem" placeholder="Insira o corpo do SMS para envio" required></textarea>
       </div>
       <div class="form-group">
-          <label for="description">Lista de Números:</label>
-          <textarea placeholder="Insira os números para envio do SMS" required></textarea>
+          <label for="description">
+              Números:
+            <label class="numero-exemplo">Ex: ("+559299999-9999")</label>
+          </label>
+          <textarea class="inserir-numero" placeholder="Insira os números para envio do SMS" required></textarea>
+          <label for="description">Ou carregar lista de números:</label>
+          <input type="file" class="file-upload" onchange="console.log(event.target.files)">
       </div>
       <input type="submit" value="{{ btnText }}">
+
   </form>
